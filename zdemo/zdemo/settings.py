@@ -32,7 +32,7 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-
+# 注册应用
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -40,6 +40,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # --把自己写的模块告诉框架
+    'ausers',
+    'brouter',
 ]
 
 MIDDLEWARE = [
