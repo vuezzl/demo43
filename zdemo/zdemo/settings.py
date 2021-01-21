@@ -44,6 +44,8 @@ INSTALLED_APPS = [
     'ausers',
     'brouter',
     'ctest',
+    'dresponse',
+    'efuxi'
 ]
 
 MIDDLEWARE = [
