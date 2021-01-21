@@ -54,6 +54,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
+    'middlewares.TestMiddleware1',  # 注册自定义的中间件1
 ]
 
 ROOT_URLCONF = 'zdemo.urls'
