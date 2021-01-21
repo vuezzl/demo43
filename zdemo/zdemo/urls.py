@@ -27,7 +27,8 @@ urlpatterns = [
     path('login/',index),
     # 路由找自路由找函数
     path('register/', include('ausers.urls')),
-    path('', include('ctest.urls'))
+    path('', include('ctest.urls')),
+    path('', include('dresponse.urls'))
 
 
 ]
