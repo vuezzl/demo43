@@ -14,15 +14,20 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path,include
+from django.urls import path,include,register_converter
+from converters import MobileConverter
 
 from ausers.views import index
+register_converter(MobileConverter,'mobile')
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     # 路由找到函数
     path('login/',index),
     # 路由找自路由找函数
-    path('register/', include('ausers.urls'))
+    path('register/', include('ausers.urls')),
+    path('', include('ctest.urls'))
+
 
 ]
