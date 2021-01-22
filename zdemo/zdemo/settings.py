@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'dresponse',
     'efuxi',
     'booktest',
+    'ctemp',
 ]
 
 MIDDLEWARE = [
@@ -63,20 +64,24 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'zdemo.urls'
 
+# 1.在 项目根目录--创建一个文件夹--templates
+# 2. settings.py--TEMPLATES -- DIRS
+# 配置模板
 TEMPLATES = [
-    {
-        'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
-        'APP_DIRS': True,
-        'OPTIONS': {
-            'context_processors': [
-                'django.template.context_processors.debug',
-                'django.template.context_processors.request',
-                'django.contrib.auth.context_processors.auth',
-                'django.contrib.messages.context_processors.messages',
-            ],
-        },
-    },
+  {
+      'BACKEND': 'django.template.backends.django.DjangoTemplates',
+      #指定模板文件目录的路径
+      'DIRS': [os.path.join(BASE_DIR, 'templates')],
+      'APP_DIRS': True,
+      'OPTIONS': {
+          'context_processors': [
+              'django.template.context_processors.debug',
+              'django.template.context_processors.request',
+              'django.contrib.auth.context_processors.auth',
+              'django.contrib.messages.context_processors.messages',
+          ],
+      },
+  },
 ]
 
 WSGI_APPLICATION = 'zdemo.wsgi.application'

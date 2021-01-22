@@ -31,6 +31,7 @@ urlpatterns = [
     path('', include('dresponse.urls')),
     path('', include('efuxi.urls')),
     path('', include('booktest.urls')),
+    path('', include('ctemp.urls')),
 
 
 ]
