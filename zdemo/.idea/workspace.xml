@@ -150,7 +150,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="107" />
     <option name="y" value="27" />
     <option name="width" value="923" />
@@ -317,15 +317,15 @@
       <option name="presentableId" value="Default" />
       <updated>1611163283194</updated>
       <workItem from="1611163284285" duration="24808000" />
-      <workItem from="1611322769362" duration="11228000" />
+      <workItem from="1611322769362" duration="11950000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36036000" />
+    <option name="totallyTimeSpent" value="36758000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="809" height="1175" extended-state="6" />
+    <frame x="67" y="25" width="809" height="1175" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4985465" visible="true" weight="0.18361954" />
       <window_info id="Structure" order="1" sideWeight="0.50145346" side_tool="true" weight="0.18361954" />
@@ -333,12 +333,12 @@
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.4993395" weight="0.33268672" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="3" sideWeight="0.4993395" visible="true" weight="0.33268672" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5006605" side_tool="true" weight="0.3258972" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.3297769" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.4993395" visible="true" weight="0.3258972" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.4993395" weight="0.3258972" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.39961204" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
